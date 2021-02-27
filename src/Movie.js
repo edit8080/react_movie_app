@@ -9,6 +9,6 @@ Movie.propTypes = {
   year: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired,
+  poster: PropTypes.string,
 };
 export default Movie;
