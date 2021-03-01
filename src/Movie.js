@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Movie({ year, title, summary, poster, genres }) {
   console.log(poster);
   return (
-    <div className="movies">
+    <div className="movie">
       <img src={poster} alt={title} title={title} />
       <div className="movie__data">
         <h3 className="movie__title">{title}</h3>
